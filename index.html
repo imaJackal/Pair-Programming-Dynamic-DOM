@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="stylesheet" href="index.css">
   <meta charset="UTF-8">
@@ -8,15 +9,19 @@
   <title>Document</title>
   <script defer src="index.js"></script>
 </head>
+
 <body>
   <section id="inputFields">
-    <p>tacos</p>
-  <input type="text" id="linkInput">
-  <input type="text" id="bookmarkName">
-  <button id="addBm">Add Bookmark</button>
-  <button id="delBM">Del Bookmark</button>
-  <li id="bmList">
-  </li>
+    <div>
+      <label for="">URL</label>
+      <input type="text" class="linkInput">
+      <label for="">Site Name</label>
+      <input type="text" class="bookmarkName">
+    </div>
+    <button class="addBm">Add Bookmark</button>
+    <button class="delBm">Del Bookmark</button>
+    <ul class="bmList"></ul>
   </section>
 </body>
+
 </html>
